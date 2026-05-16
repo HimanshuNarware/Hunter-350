@@ -34,7 +34,7 @@ export function PageLoader() {
         strategy="beforeInteractive"
       />
       <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-background/95 backdrop-blur-xl">
-        <div className="flex flex-col items-center gap-4 p-6 rounded-3xl bg-black/70 shadow-2xl">
+        <div className="flex flex-col items-center gap-4 p-6 rounded-3xl bg-transparent shadow-2xl">
           <LottiePlayer
             src="/loader/Bike.json"
             background="transparent"
